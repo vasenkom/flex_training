@@ -14,7 +14,6 @@
   }
   
   .menu {
-    border: 1px solid #fff;  /* For debugging */
     width: 900px;
     display: flex;
     justify-content: space-around;
@@ -30,3 +29,17 @@
   .login {
     margin-left: 15px;
   }
+  .header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 300px;
+  }
+
