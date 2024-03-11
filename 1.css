@@ -2,15 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
   }
   
   .menu-container {
     color: #fff;
     background-color: #5995DA;  /* Blue */
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
   }
   
   .menu {
     border: 1px solid #fff;  /* For debugging */
     width: 900px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .date {
+    display: flex;
+    justify-content: left;
+  }
+  .right {
+    display: flex;
+    justify-content: right;
+  }
+  .login {
+    margin-left: 15px;
   }
