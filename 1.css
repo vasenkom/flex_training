@@ -70,3 +70,15 @@
   .last-item {
     order: -1;
   }
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-item {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+  }
