@@ -29,6 +29,9 @@
   .login {
     margin-left: 15px;
   }
+  .signup {
+    margin-left: auto;
+  }
   .header-container {
     color: #5995DA;
     background-color: #D6E9FE;
@@ -82,6 +85,9 @@
     height: 200px;
     flex: 1;
   }
+  .footer-one,
   .footer-three {
-    flex: 2;
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
   }
